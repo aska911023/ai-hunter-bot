@@ -1,0 +1,5 @@
+streamlit
+supabase
+duckduckgo-search
+requests
+beautifulsoup4
