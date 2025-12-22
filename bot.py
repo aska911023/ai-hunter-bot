@@ -104,7 +104,10 @@ def run_bot_cycle():
     print(f"💤 Mission Complete. Added {total_added} new resources. Sleeping for {INTERVAL}s.")
 
 if __name__ == "__main__":
-    print("🚀 Full-Spectrum AI Hunter Initialized.")
-    while True:
-        run_bot_cycle()
-        time.sleep(INTERVAL)
+    print("🚀 Cloud AI Hunter Initialized.")
+    
+    # 雲端版不需要 while True，也不需要 sleep
+    # GitHub 會負責每天叫它起床，它只要跑一次就下班
+    run_bot_cycle()
+    
+    print("✅ Mission Complete. Shutting down.")
